@@ -58,7 +58,6 @@ main = do
     (tryToConnect sock addrinfos)
     hClose
     runConnection
-  threadDelay 5000000
   main
     where
       resolve :: HostName
